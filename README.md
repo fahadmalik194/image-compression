@@ -6,5 +6,5 @@ Add --help to see all commands
 
 # Resize Image
 Add resize --path="" --width="" --height=""
-Example:
+Example:<br>
 node src/app.js resize --path="<path-to-your-image>" --width="1024" --height="900"
