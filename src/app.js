@@ -1,6 +1,6 @@
 const chalk = require('chalk')
 const yargs = require('yargs')
-const paths = require('./path')
+const image = require('./image')
 
 //customize app version using yargs
 yargs.version('1.0.0')
@@ -15,19 +15,19 @@ yargs.command({
             required: true,
             type: 'string'
         },
-        height : {
-            describe: 'New Height',
+        width : {
+            describe: 'New Width',
             required: true,
             type: 'number'
         },
-        width : {
-            describe: 'New Width',
+        height : {
+            describe: 'New Height',
             required: true,
             type: 'number'
         } 
     },
     handler(argv){
-        paths.resizeImage(argv.path, argv.height, argv.width)
+        image.resizeImage(argv.path, argv.width, argv.height)
     }
 })
 
