@@ -1,0 +1,7 @@
+File from: [/home/techverx/Downloads/newim.jpg]
+
+File to: [/home/techverx/Desktop/newim.jpg]
+
+Compression algorithm: [-]
+
+Description: File does not exist!

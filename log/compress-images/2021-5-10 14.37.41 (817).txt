@@ -1,0 +1,32 @@
+File from: [/home/techverx/Downloads/newimage.jpg]
+
+File to: [/home/techverx/Desktop/newimage.jpg]
+
+Compression algorithm: [jpegtran]
+
+Description: Error: Command failed: /home/techverx/Documents/Node JS Course/image-compression/node_modules/jpegtran-bin/vendor/jpegtran -quality 60 -outfile /home/techverx/Desktop/newimage.jpg /home/techverx/Downloads/newimage.jpg
+usage: /home/techverx/Documents/Node JS Course/image-compression/node_modules/jpegtran-bin/vendor/jpegtran [switches] [inputfile]
+Switches (names may be abbreviated):
+  -copy none     Copy no extra markers from source file
+  -copy comments Copy only comment markers (default)
+  -copy all      Copy all extra markers
+  -optimize      Optimize Huffman table (smaller file, but slow compression)
+  -progressive   Create progressive JPEG file
+Switches for modifying the image:
+  -crop WxH+X+Y  Crop to a rectangular subarea
+  -grayscale     Reduce to grayscale (omit color data)
+  -flip [horizontal|vertical]  Mirror image (left-right or top-bottom)
+  -perfect       Fail if there is non-transformable edge blocks
+  -rotate [90|180|270]         Rotate image (degrees clockwise)
+  -transpose     Transpose image
+  -transverse    Transverse transpose image
+  -trim          Drop non-transformable edge blocks
+Switches for advanced users:
+  -arithmetic    Use arithmetic coding
+  -restart N     Set restart interval in rows, or in blocks with B
+  -maxmemory N   Maximum memory to use (in kbytes)
+  -outfile name  Specify name for output file
+  -verbose  or  -debug   Emit debug output
+  -version       Print version information and exit
+Switches for wizards:
+  -scans file    Create multi-scan JPEG per script file

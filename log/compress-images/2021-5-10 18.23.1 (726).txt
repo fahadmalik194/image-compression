@@ -1,0 +1,7 @@
+File from: [/home/techverx/Downloads/imaget.jpeg]
+
+File to: [/home/techverx/Desktop/imaget.jpeg]
+
+Compression algorithm: [-]
+
+Description: File does not exist!
