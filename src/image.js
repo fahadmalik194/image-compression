@@ -65,7 +65,7 @@ const compressImage = (compressRate, inputPath, outputPath) => {
                     onProgress,
                     enginesSetup: {
                         jpg: { engine: 'mozjpeg', command: ['-quality', compressRate]},
-                        png: { engine: 'pngquant', command: ['--quality='+compressRate, '-o']},
+                        png: { engine: 'pngquant', command: ['--quality=20-'+compressRate, '-o']},
                     }
                 });
                 const { statistics, errors } = result;
