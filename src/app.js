@@ -42,7 +42,7 @@ yargs.command({
     describe: 'Add compress rate, source path and output path of your file, to compress image',
     builder : {
         rate : {
-            describe: 'Add Compress Rate (1-100)',
+            describe: 'Add Compress Rate - Range(1-100)',
             required: true,
             type: 'number'
         },
